@@ -9,53 +9,10 @@ The ammunition depot is represented as a polygon (either entered through coordin
 
 Each bomb’s impact point (X, Y) is generated using:
 
-𝑋
-=
-𝑍
-𝑥
-×
-𝜎
-𝑥
-,
-𝑌
-=
-𝑍
-𝑦
-×
-𝜎
-𝑦
-X=Z
-x
+X=Zx​×σx​,Y=Zy​×σy​
 	​
 
-×σ
-x
-	​
-
-,Y=Z
-y
-	​
-
-×σ
-y
-	​
-
-
-where 
-𝑍
-𝑥
-,
-𝑍
-𝑦
-Z
-x
-	​
-
-,Z
-y
-	​
-
- are random normal numbers.
+ where Zx, Zy are random normal numbers.
 
 The program checks if each bomb lands inside the depot — counting hits and misses.
 

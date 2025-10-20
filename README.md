@@ -1,7 +1,7 @@
 Monte Carlo Bombing Simulation
-Project Description
+Problem Description
 
-This project demonstrates a Monte Carlo Simulation — a type of static simulation used to estimate probabilities using random sampling.
+This problem demonstrates a Monte Carlo Simulation — a type of static simulation used to estimate probabilities using random sampling.
 The example models a squadron of bombers attempting to hit an ammunition depot. Each bomb’s landing point is determined by random variations in the horizontal and vertical directions, following a normal distribution.
 
  How It Works
@@ -32,4 +32,4 @@ Displays visual results, hit probability, and execution time.
 
 🧠 Purpose
 
-This project shows how Monte Carlo methods can simulate real-world uncertainty — in this case, the inaccuracy of bomb drops — and estimate the probability of successful hits.
+This problem shows how Monte Carlo methods can simulate real-world uncertainty — in this case, the inaccuracy of bomb drops — and estimate the probability of successful hits.
